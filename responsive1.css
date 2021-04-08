@@ -1,0 +1,27 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+   
+    .heading h1 {            
+       font-size: 20px;            
+    }          
+              
+    }            
+ /* For Smartphones */            
+ @media all and (max-width: 670px) {            
+    .header-right {            
+       display: none;            
+    }            
+     
+    span.menu-icon {            
+        display: block;            
+    }            
+      
+    .btn {            
+        width: 100%;            
+    }            
+      footer {            
+        text-align: center;            
+     }
+    }
+     
+    

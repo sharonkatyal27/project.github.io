@@ -1,0 +1,36 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+  padding: 180px 0px 100px 0px;
+  background-image: url("img.jpg");
+  background-size: cover;
+  color: white;
+  text-align:center;
+  opacity: 0.7;
+}
+h1 {
+  font-family: "Times New Roman",'Times New Roman', Times, serif;
+  font-style: italic;
+  text-align: center;
+  text-shadow: whitesmoke;
+  color: bisque;
+  padding: 50px 50px 50px 50px;
+  
+}
+.btn-wrapper {
+  margin: 20px 0;
+  background-color: cyan;
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}

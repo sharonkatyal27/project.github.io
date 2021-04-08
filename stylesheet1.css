@@ -1,0 +1,96 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: thistle;
+  background-size: cover;
+  
+}
+
+img{
+    margin-left: 25px;
+    height: 6cm;
+    width: 4cm;
+
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+span{
+  color: blueviolet;
+  font-style: oblique;
+}
+p{
+ padding-left: 220px;
+ font-size: 19px;
+ margin-top: -200px;
+ width: auto;
+}
+ul{
+  line-break: strict;
+  margin-top: 9px;
+  padding-top: 20px;
+}
+li{
+    color:darkslateblue;
+    font-size: 18px;
+    line-break: strict;
+    margin-left: 18px;
+}
+.title{
+  font-size: 19px;
+  flex-wrap: wrap;
+  color: coral;
+  padding-left: 500px;
+ 
+}
+.skills li{
+  font-size: 19px;
+  flex-wrap: wrap;
+  color: coral;
+  padding-left: 500px;
+  list-style: none;
+  
+}
+.btn-wrapper {
+  
+  margin: 20px 0;
+  background-color: cyan;
+  padding: 12px 600px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+.footer {
+  background-color:darkkhaki;
+  color: #fff;
+  height: 70px;
+  padding-bottom: 30px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  padding-left: 20px;
+  padding-top: 35px;
+}
+
+.footer-list {
+  float: right;
+  
+}
+
+.footer-list li {
+  padding-bottom: -15px;
+  padding-right: 40px;
+}
